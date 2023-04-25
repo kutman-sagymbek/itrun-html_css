@@ -363,7 +363,7 @@
     .fireplace1 {
         &__info {
             &-title {
-                font-size: 44px;
+                font-size: 34px;
             }
         }
     }
@@ -497,4 +497,154 @@
 }
 }
 
-// @media (max-width: 3)
+@media (max-width: 350px){
+    .header {
+        &__nav {
+            .list {
+                gap: 1%;
+            }
+
+            .burger {
+                display: none;
+            }
+        }
+    }
+    .fireplace1 {
+        &__info {
+            &-title {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .fireplace2 {
+
+        h2 {
+            font-size: 28px;
+        }
+    }
+
+    .fireplace3 {
+        .refueling {
+            &__description1 {
+                h3 {
+                    font-size: 32px;
+                }
+            }
+            &__description2 {
+                &-kamin3 {
+                   display: none;
+                }
+            
+                &-ellipse {
+                    display: none;
+                }
+            }
+         }
+    }
+    .fireplace5 {
+        &__blocks {
+            display: grid;
+    
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+            &-block1 {
+                text-align: center;
+    
+                img {
+                    width: 80%;
+                }
+            }
+    
+            &-block2 {
+                text-align: center;
+            }
+    
+            &-block3 {
+                padding-left: 20px;
+                display: none;
+            }
+    
+            &-block4 {
+                padding-top: 50px;
+                .swiper {
+                    width: 320px;
+                    height: 250px;
+                  }
+            }
+    
+            &-block5 {
+                h4 {
+                    padding-left: 20px;
+                }
+                p {
+                    padding-left: 20px;
+                }
+    
+                .swiper {
+                    width: 320px;
+                    height: 250px;
+                  }
+            }
+    
+            &-block6 {
+                padding-top: 20px;
+                h4 {
+                    padding-left: 20px;
+                }
+                p {
+                    padding-left: 20px;
+                }
+    
+                .swiper {
+                    width: 320px;
+                    height: 250px;
+                  }
+            }
+    
+    }
+
+    &__catalog {
+        padding: 60px 60px;
+        text-align: center;
+        &-title {
+            font-size: 20px;
+            line-height: 20px;
+        }
+
+        &-btn {
+            width: 200px;
+        }
+    }
+}
+
+.fireplace7 {
+    &__title {
+        font-size: 25px;
+    }
+    &__order-table {
+        img {
+            margin-left: 20px;
+            width: 400px;
+            height: 250px;
+        }
+        .controller {
+            width: 400px;
+
+            &__range {
+                width: 390px;
+                margin-left: 20px;
+            }
+
+            &__text1 {
+                margin-left: 20px;
+            }
+
+            .checkbox {
+                margin-left: 20px;
+            }
+        }
+}
+}
+}
