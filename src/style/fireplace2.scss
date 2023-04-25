@@ -1,0 +1,56 @@
+.fireplace2 {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+
+    h2 {
+        font-family: 'Lab Grotesque';
+        font-style: normal;
+        font-weight: 250;
+        font-size: 40px;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        background: linear-gradient(240.22deg, #FFFFFF 31.8%, rgba(255, 255, 255, 0) 87.73%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .kamin2 {
+        width: 100%;
+    }
+
+    .subtitle {
+        font-family: 'Lab Grotesque';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 33px;
+        color: #FFFFFF;
+        padding-top: 20px;
+    }
+
+    &__applications2 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+
+        div {
+            display: flex;
+            gap: 10px;
+            align-items:center;
+
+            p {
+                font-family: 'Lab Grotesque';
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 24px;
+                color: #FFFFFF;
+            }
+
+        }
+    }
+}
