@@ -1328,7 +1328,7 @@ body {
     padding-left: 20px;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 400px) {
   .header__nav .list {
     gap: 1%;
   }
@@ -1426,7 +1426,6 @@ body {
     height: 250px;
   }
   .fireplace5__catalog {
-    padding: 60px 60px;
     text-align: center;
   }
   .fireplace5__catalog-title {

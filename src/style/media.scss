@@ -497,7 +497,7 @@
 }
 }
 
-@media (max-width: 380px){
+@media (max-width: 400px){
     .header {
         &__nav {
             .list {
@@ -606,7 +606,6 @@
     }
 
     &__catalog {
-        padding: 60px 60px;
         text-align: center;
         &-title {
             font-size: 20px;
